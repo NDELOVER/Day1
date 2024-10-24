@@ -1,3 +1,5 @@
 given_name=input("Please enter your first name? ")
 surname=input("Please enter your family name? ")
-print("your fullname is: " + given_name + " " + surname)
+print("your fullname is: " + given_name + " " + surname + "!")
+length=len(given_name)
+print("the length of your first name is: " + str(length))
